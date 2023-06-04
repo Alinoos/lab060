@@ -226,6 +226,17 @@ build_script:
 и разместить их на сервисе **GitHub**. (см. пример для [Travi CI](https://docs.travis-ci.com/user/deployment/releases))</br>
 
 ```sh
+$ git clone https://github.com/Alinoos/lab04 lab06
+Клонирование в «lab06»...
+remote: Enumerating objects: 130, done.
+remote: Counting objects: 100% (130/130), done.
+remote: Compressing objects: 100% (76/76), done.
+remote: Total 130 (delta 41), reused 119 (delta 38), pack-reused 0
+Получение объектов: 100% (130/130), 51.19 КиБ | 1.02 МиБ/с, готово.
+Определение изменений: 100% (41/41), готово.
+$ git remote add origin https://github.com/Alinoos/lab06
+
+
 
 ```
 ## Links
