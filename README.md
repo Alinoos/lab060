@@ -252,51 +252,6 @@ remote:      https://github.com/Alinoos/lab06/pull/new/master
 remote: 
 To https://github.com/Alinoos/lab06.git
  * [new branch]      master -> master
-$ touch CPackConfig.cmake
-$ nano CPackConfig.cmake
-include(InstallRequiredSystemLibraries)
-set(CPACK_PACKAGE_CONTACT donotwriteme@bmstuisbetterthanhse.com)
-set(CPACK_PACKAGE_VERSION_MAJOR \${PRINT_VERSION_MAJOR})
-set(CPACK_PACKAGE_VERSION_MINOR \${PRINT_VERSION_MINOR})
-set(CPACK_PACKAGE_VERSION_PATCH \${PRINT_VERSION_PATCH})
-set(CPACK_PACKAGE_VERSION_TWEAK \${PRINT_VERSION_TWEAK})
-set(CPACK_PACKAGE_VERSION \${PRINT_VERSION})
-
-set(CPACK_RESOURCE_FILE_LICENSE \${CMAKE_CURRENT_SOURCE_DIR}/LICENSE)
-set(CPACK_RESOURCE_FILE_README \${CMAKE_CURRENT_SOURCE_DIR}/README.md)
-set(CPACK_RPM_PACKAGE_NAME "solver_lab")
-set(CPACK_RPM_PACKAGE_LICENSE "MIT")
-set(CPACK_RPM_PACKAGE_GROUP "solver")
-set(CPACK_RPM_PACKAGE_VERSION CPACK_PACKAGE_VERSION)
-set(CPACK_DEBIAN_PACKAGE_NAME "libsolvert-lab")
-set(CPACK_DEBIAN_PACKAGE_PREDEPENDS "cmake >= 3.0")
-set(CPACK_DEBIAN_PACKAGE_VERSION CPACK_PACKAGE_VERSION)
-include(CPack)
-$ rm -rf hello_world_application/
-$ git add .
-$ git commit -m "added CPackConfig.cmake"
-[master 2af3946] added CPackConfig.cmake
- 17 files changed, 1508 deletions(-)
- create mode 100644 CPackConfig.cmake
- delete mode 100644 hello_world_application/CMakeLists.txt
- delete mode 100644 hello_world_application/_build/CMakeCache.txt
- delete mode 100644 hello_world_application/_build/formatter_ex/CMakeFiles/CMakeDirectoryInformation.cmake
- delete mode 100644 hello_world_application/_build/formatter_ex/CMakeFiles/formatter_ex.dir/DependInfo.cmake
- delete mode 100644 hello_world_application/_build/formatter_ex/CMakeFiles/formatter_ex.dir/build.make
- delete mode 100644 hello_world_application/_build/formatter_ex/CMakeFiles/formatter_ex.dir/cmake_clean.cmake
- delete mode 100644 hello_world_application/_build/formatter_ex/CMakeFiles/formatter_ex.dir/compiler_depend.internal
- delete mode 100644 hello_world_application/_build/formatter_ex/CMakeFiles/formatter_ex.dir/compiler_depend.make
- delete mode 100644 hello_world_application/_build/formatter_ex/CMakeFiles/formatter_ex.dir/depend.make
- delete mode 100644 hello_world_application/_build/formatter_ex/CMakeFiles/formatter_ex.dir/flags.make
- delete mode 100644 hello_world_application/_build/formatter_ex/CMakeFiles/formatter_ex.dir/formatter_ex.cpp.o
- delete mode 100644 hello_world_application/_build/formatter_ex/CMakeFiles/formatter_ex.dir/formatter_ex.cpp.o.d
- delete mode 100644 hello_world_application/_build/formatter_ex/CMakeFiles/progress.marks
- delete mode 100644 hello_world_application/_build/formatter_ex/cmake_install.cmake
- delete mode 100644 hello_world_application/_build/formatter_ex/libformatter_ex.a
- delete mode 100644 hello_world_application/hello_world.cpp
- [master 3b9a710] added CPackConfig.cmake
- 1 file changed, 18 insertions(+)
-
 
 ```
 ## Links
