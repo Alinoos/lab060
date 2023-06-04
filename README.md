@@ -294,6 +294,9 @@ $ git commit -m "added CPackConfig.cmake"
  delete mode 100644 hello_world_application/_build/formatter_ex/cmake_install.cmake
  delete mode 100644 hello_world_application/_build/formatter_ex/libformatter_ex.a
  delete mode 100644 hello_world_application/hello_world.cpp
+ [master 3b9a710] added CPackConfig.cmake
+ 1 file changed, 18 insertions(+)
+
 
 ```
 ## Links
